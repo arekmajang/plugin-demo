@@ -9,5 +9,5 @@ dsi:
         class-name: com.dsi.lab.plugin.buildin.MyPlugin1
       - code: pluginImol2
         name: Plugin Dua
-        jar-file-path: C:\rifano\learn\aws\ws\plugin-all\pluginimpl\target\pluginimpl-0.0.1-SNAPSHOT.jar
+        jar-file-path: /workspace/plugin-jar/pluginimpl-0.0.1-SNAPSHOT.jar
         class-name: com.dsi.lab.pluginimpl.PluginImpl1

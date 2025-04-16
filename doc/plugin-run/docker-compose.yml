@@ -4,7 +4,7 @@ services:
   plugin-run:
     image: plugin:${STACK_VERSION}
     volumes:
-      - "/data/lab/plugin/jar"
+      - ./plugin-jar:/workspace/plugin-jar
       - ./application-dev.yml:/workspace/BOOT-INF/classes/application-dev.yml
     user: "0"
     ports:
