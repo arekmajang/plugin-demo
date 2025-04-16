@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: plugin
+dsi:
+  lab:
+    plugins:
+      - code: plugin1
+        name: Plugin Satu
+        class-name: com.dsi.lab.plugin.buildin.MyPlugin1
+      - code: pluginImol1
+        name: Plugin Satu
+        jar-file-path: C:\rifano\learn\aws\ws\plugin-all\pluginimpl\target\pluginimpl-0.0.1-SNAPSHOT.jar
+        class-name: com.dsi.lab.pluginimpl.PluginImpl1
+
