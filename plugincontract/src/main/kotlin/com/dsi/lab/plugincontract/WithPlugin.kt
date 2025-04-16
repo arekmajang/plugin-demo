@@ -6,6 +6,7 @@ import java.time.LocalDateTime
 interface WithPlugin {
     val code: String
     val name: String
+    fun postInit()
     fun execute(param: PluginParam): PluginResp
 }
 

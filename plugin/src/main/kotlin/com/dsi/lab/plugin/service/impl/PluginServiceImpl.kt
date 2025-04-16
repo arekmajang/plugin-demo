@@ -77,6 +77,7 @@ class PluginServiceImpl(
                     val clazz = Class.forName(pluginCfg.className, true, classLoader).kotlin
                     val constructor = clazz.constructors.first()
                     val plugin = constructor.call(initParam) as WithPlugin
+                    plugin.postInit()
                     PluginRuntime.ofSuccess(
                         pluginCfg, plugin
                     )
