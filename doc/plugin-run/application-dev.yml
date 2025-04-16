@@ -7,7 +7,11 @@ dsi:
       - code: plugin1
         name: Plugin Satu
         class-name: com.dsi.lab.plugin.buildin.MyPlugin1
-      - code: pluginImol2
-        name: Plugin Dua
+      - code: pluginImpl1
+        name: Plugin Satu
         jar-file-path: /workspace/plugin-jar/pluginimpl-0.0.1-SNAPSHOT.jar
         class-name: com.dsi.lab.pluginimpl.PluginImpl1
+      - code: pluginImpl2
+        name: Plugin Dua
+        jar-file-path: /workspace/plugin-jar/pluginimpl-0.0.1-SNAPSHOT.jar
+        class-name: com.dsi.lab.pluginimpl.PluginImpl2
