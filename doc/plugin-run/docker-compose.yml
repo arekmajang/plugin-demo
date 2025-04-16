@@ -5,6 +5,7 @@ services:
     image: plugin:${STACK_VERSION}
     volumes:
       - "/data/lab/plugin/jar"
+      - ./application-dev.yaml:/workspace/application-dev.yaml
     user: "0"
     ports:
       - 8080:8080
@@ -12,7 +13,7 @@ services:
       - TZ=Asia/Jakarta
       - JAVA_OPTS=${IFDS_JAVA_OPTS}
       - SERVER_PORT=8080
-
+      - SPRING_PROFILES_ACTIVE=dev
 networks:
   default:
     ipam:
