@@ -11,4 +11,8 @@ dsi:
         name: Plugin Satu
         jar-file-path: C:\rifano\learn\aws\ws\plugin-all\pluginimpl\target\pluginimpl-0.0.1-SNAPSHOT.jar
         class-name: com.dsi.lab.pluginimpl.PluginImpl1
+      - code: pluginImol2
+        name: Plugin Dua Org
+        jar-file-path: C:\rifano\learn\aws\ws\plugin-all\pluginimpl\target\pluginimpl-0.0.1-SNAPSHOT.jar
+        class-name: com.dsi.lab.pluginimpl.PluginImpl2
 
