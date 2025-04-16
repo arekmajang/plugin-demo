@@ -5,7 +5,7 @@ services:
     image: plugin:${STACK_VERSION}
     volumes:
       - "/data/lab/plugin/jar"
-      - ./application-dev.yaml:/workspace/application-dev.yaml
+      - ./application-dev.yaml:/workspace/BOOT-INF/classes/application-dev.yaml
     user: "0"
     ports:
       - 8080:8080
